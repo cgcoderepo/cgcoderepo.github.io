@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reds Lawn & Beyond</title>
+        <style>
+            html{
+                /* max-width: 1500px; */
+                font-family: verdana, sans-serif;
+                background-color: rgb(204, 203, 202);
+            }
+            .navbar{
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: #333;
+            }
+            .navbar a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .navbar a:hover {
+                background: #ddd;
+                color: black;
+            }
+            .header{
+                margin: 60px 10px 30px;
+                padding: 30px;
+                background-image: url('./images/lawn.jpg');
+                /* height: 200px; */
+                background-position: center center;
+                background-size: auto;
+                background-repeat: no-repeat;
+                text-align: center;
+                text-shadow:
+                -1px -1px 0 rgb(255, 255, 255),
+                1px -1px 0 rgb(255, 255, 255),
+                -1px 1px 0 rgb(255, 255, 255),
+                1px 1px 0 rgb(255, 255, 255);
+                
+            }
+            .grid-container-landing {
+            display: grid;
+            align-items: center;
+            grid-template-columns: auto auto;
+            }
+            
+            .services{
+                margin: auto;
+                text-align: center;
+                width: 80%;
+            }
+            .grid-container-services{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                padding-bottom: 30px;
+            }
+            .grid-item{
+                padding: 20px;
+                font-size: 20px;
+                text-align: center;
+            }
+            .grid-item img{
+                width:250px;
+                height:175px;
+            }
+            .contact-directory{
+                text-align: center;
+            }
+        </style>
+    </Head>
+    <body>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact-directory">Contact Directory</a>
+        </nav>
+        <div class="landingPage">
+            <div class="header">
+                <h1>Reds Lawn <br>& <br>Beyond</h1>
+            </div>
+            <div class="grid-container-landing" style="width:800px; margin:0 auto;">
+                <div class="grid-item">
+                    <img src="./images/front-yard.jpg" alt="front yard" style="width:400px;height:300px;">
+                </div>
+                <div class="grid-item">
+                    With Red's Lawn&Beyond count on quality first. We offer many services like complete lawn care,
+                    irrigation services,weed management, fertilizing,mulch, gravel, concrete pads, bobcat work, etc.
+                    Give us a call for a quote free of charge any time any day or email as an alternative.
+                </div>
+            </div> 
+        </div>
+        <div class="services" id="services">
+            
+            <div class="grid-container-services">
+                <div class="grid-item"></div>
+                <div class="grid-item"><h2>Services</h2></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"><img src="./images/lawn.jpeg" ></div>
+                <div class="grid-item"><img src="./images/mulch.jpg" ></div>
+                <div class="grid-item"><img src="./images/sprinkler.jpg" ></div>  
+                <div class="grid-item">
+                    <h4>Our specialty, complete lawn care</h4>
+                    <p>We know that keeping your lawn lookin' fresh not only makes you proud of your property,
+                        it makes your property feel like a home and a place you want to be. 
+                        We are a weekly/biweekly service depending on your needs. 
+                        Our goal is to gain more experience and attain bigger jobs as we go and not to break your wallet. 
+                        Quality at a fair price is essential to us, so let us handle the dirty work. 
+                        Call for a free quote over the phone or email.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <h4>Mulching add on service-with weed guard</h4>
+                    <p>Just like the cherry on a sundae, mulch can completely transform the way your lawn pops out in the neighborhood. 
+                        With many colors, materials, and styles, the variations are endless. 
+                        This is usually a one day installation depending on the size of the project. 
+                        Again, call for a free estimate or email as an alternative.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <h4>Irrigation installation/maintenance</h4>
+                    <p>Do you have a dry spot on your lawn, or a stubborn sprinkler, we can help with that.
+                        We do installations from scratch or update existing systems depending on your needs.
+                        This process requires an in-person quote so give us a call in advance to set up a date and time to get your lawn hydrated and well maintained.
+                    </p>
+                </div>
+                <div class="grid-item"><img src="./images/skidloader.jpg"></div>
+                <div class="grid-item"><img src="./images/fertilizer.png"></div>
+                <div class="grid-item"><img src="./images/gravel.jpg"></div>
+                <div class="grid-item">
+                    <h4>skid steer / excavator work</h4>
+                </div>
+                <div class="grid-item">
+                    <h4>lawn fertilizing / seeding</h4>
+                </div>
+                <div class="grid-item">
+                    <h4>gravel / rock installation</h4>
+                </div>
+            </div>
+        </div>
+        <div class="contact-directory" id="contact-directory">
+            <h2>Contact Directory</h2>
+            <div>
+                <p>We are available Monday through Saturday 6:00AM - 5:00pm</p>
+                <p>
+                    Give us a call anytime at:<br>
+                    (209)338-8276<br>
+                    Email: redslawnandbeyond@gmail.com
+                </p>
+            
+            </div>
+        </div>
+    </body>
+</html>
